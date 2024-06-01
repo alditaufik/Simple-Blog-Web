@@ -1,0 +1,32 @@
+html,
+p{
+    text-align: justify;
+}
+.hero{
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero h1 {
+    margin-bottom: 2rem
+}
+
+.hero_btn{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+textarea{
+    height:70vh
+}
+
+h1{
+   
+    padding-top: 2rem;
+    padding-bottom: 3 rem;
+}

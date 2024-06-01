@@ -1,0 +1,14 @@
+<%- include("../partials/header") %>
+
+
+    <h1>Edit Post</h1>
+    <form action="/edit/<%= title %>" method="POST">
+        <label for="title">Title:</label><br>
+        <input class="form-control form-control-lg" type="text" id="title" name="title" value="<%= title %>"><br>
+        <label for="content">Content:</label><br>
+        <textarea class="form-control form-control-lg" id="content" name="content" rows="4" cols="50"><%= content %></textarea><br>
+        <input class="btn btn-primary btn-lg" type="submit" value="Submit">
+    </form>
+
+
+<%- include("../partials/footer") %>

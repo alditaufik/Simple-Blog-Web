@@ -1,0 +1,10 @@
+<%- include("../partials/header") %>
+<form action="/create" method="POST">
+    <h1>Create a post</h1>
+            <label for="title">Title:</label>
+            <input class="form-control form-control-lg mb-3 mt-3" type="text" id="title" name="title" required>
+            <label for="content">Content:</label>
+            <textarea class="form-control from-floating form-control-lg nb-3 mt-3" id="content" name="content"  cols="50" required></textarea>
+            <input class="btn btn-primary btn-lg mt-3" type="submit" value="Post">
+        </form>
+<%- include("../partials/footer") %>
